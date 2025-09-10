@@ -15,3 +15,6 @@ suicide. In addition, for exploratory purpose, we examine whether
 the institutional imbalance is related to the force of production. Our
 findings support neither of these hypotheses.
 
+## Data and Code 
+This projects data and code is available through a variety of sources and listed in the depositories above.
+Our data were collected from the World Health Organization (WHO), World Values Survey 'Wave 6: 2010–2014' (WVS), the Heritage Foundation, United Nations, World Bank, Worldwide Governance Indicator (WGI) and Transparency International. All datasets above were in a country-level aggregated format apart from the WVS.

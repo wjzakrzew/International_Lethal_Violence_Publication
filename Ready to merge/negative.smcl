@@ -1,0 +1,437 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Billy\Dropbox\SHR Research\Data - 4th submission\Revised Data\Ready to merge\negative.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}27 Sep 2019, 11:41:49
+{txt}
+{com}. 
+. nbreg homicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco, offset(lnpop) vce(robust) irr
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-279.69125}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-278.99042}  
+Iteration 2:{space 3}log pseudolikelihood = {res: -278.9886}  
+Iteration 3:{space 3}log pseudolikelihood = {res: -278.9886}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-170.89608}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-132.18525}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-127.56619}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-126.75972}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-126.75883}  
+Iteration 5:{space 3}log pseudolikelihood = {res:-126.75883}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-123.29702}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-122.18651}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-120.09814}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-120.07312}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-120.07308}  
+Iteration 5:{space 3}log pseudolikelihood = {res:-120.07308}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}4{txt}){col 67}= {res}      7.69
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.1035
+{txt}Log pseudolikelihood = {res}-120.07308{txt}{col 49}Pseudo R2{col 67}= {res}    0.0527
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}    homicide{col 14}{c |}        IRR{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} 1.130983{col 26}{space 2} .0611851{col 37}{space 1}    2.28{col 46}{space 3}0.023{col 54}{space 4} 1.017201{col 67}{space 3} 1.257492
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2} 1.026468{col 26}{space 2} .0379753{col 37}{space 1}    0.71{col 46}{space 3}0.480{col 54}{space 4} .9546725{col 67}{space 3} 1.103663
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2} .8840644{col 26}{space 2} .0483574{col 37}{space 1}   -2.25{col 46}{space 3}0.024{col 54}{space 4} .7941894{col 67}{space 3} .9841102
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2}  1.00069{col 26}{space 2} .0294023{col 37}{space 1}    0.02{col 46}{space 3}0.981{col 54}{space 4} .9446903{col 67}{space 3} 1.060009
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 4.33e-07{col 26}{space 2} 1.87e-07{col 37}{space 1}  -33.99{col 46}{space 3}0.000{col 54}{space 4} 1.86e-07{col 67}{space 3} 1.01e-06
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .7750555{col 26}{space 2} .2071175{col 54}{space 4} .3691128{col 67}{space 3} 1.180998
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 2.170713{col 26}{space 2} .4495925{col 54}{space 4} 1.446451{col 67}{space 3} 3.257625
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. nbreg homicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco, offset(lnpop) vce(robust)
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-279.69125}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-278.99042}  
+Iteration 2:{space 3}log pseudolikelihood = {res: -278.9886}  
+Iteration 3:{space 3}log pseudolikelihood = {res: -278.9886}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-170.89608}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-132.18525}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-127.56619}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-126.75972}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-126.75883}  
+Iteration 5:{space 3}log pseudolikelihood = {res:-126.75883}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-123.29702}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-122.18651}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-120.09814}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-120.07312}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-120.07308}  
+Iteration 5:{space 3}log pseudolikelihood = {res:-120.07308}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}4{txt}){col 67}= {res}      7.69
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.1035
+{txt}Log pseudolikelihood = {res}-120.07308{txt}{col 49}Pseudo R2{col 67}= {res}    0.0527
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}    homicide{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} .1230872{col 26}{space 2}  .054099{col 37}{space 1}    2.28{col 46}{space 3}0.023{col 54}{space 4}  .017055{col 67}{space 3} .2291193
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2} .0261241{col 26}{space 2} .0369961{col 37}{space 1}    0.71{col 46}{space 3}0.480{col 54}{space 4}-.0463869{col 67}{space 3}  .098635
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2}-.1232254{col 26}{space 2} .0546989{col 37}{space 1}   -2.25{col 46}{space 3}0.024{col 54}{space 4}-.2304333{col 67}{space 3}-.0160174
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2} .0006896{col 26}{space 2}  .029382{col 37}{space 1}    0.02{col 46}{space 3}0.981{col 54}{space 4}-.0568982{col 67}{space 3} .0582773
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} -14.6527{col 26}{space 2} .4311151{col 37}{space 1}  -33.99{col 46}{space 3}0.000{col 54}{space 4}-15.49767{col 67}{space 3}-13.80773
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .7750555{col 26}{space 2} .2071175{col 54}{space 4} .3691128{col 67}{space 3} 1.180998
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 2.170713{col 26}{space 2} .4495925{col 54}{space 4} 1.446451{col 67}{space 3} 3.257625
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. outreg2 using H_S.doc, replace ctitle(Model 1)
+{txt}{stata `"shellout using `"H_S.doc"'"':H_S.doc}
+{browse `"C:\Users\Billy\Dropbox\SHR Research\Data - 4th submission\Revised Data\Ready to merge"' :dir}{com} : {txt}{stata `"seeout using "H_S.txt""':seeout}
+
+{com}. 
+. nbreg homicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco GDP sexratio pcunemp pcurban, offset(lnpop) vce(robust) irr
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-268.06937}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-266.68171}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-266.67754}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-266.67754}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-170.89608}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-132.18525}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-127.56619}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-126.75972}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-126.75883}  
+Iteration 5:{space 3}log pseudolikelihood = {res:-126.75883}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-119.66408}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-112.44234}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-111.14363}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-111.11754}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-111.11753}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}8{txt}){col 67}= {res}     40.28
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log pseudolikelihood = {res}-111.11753{txt}{col 49}Pseudo R2{col 67}= {res}    0.1234
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}    homicide{col 14}{c |}        IRR{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} 1.089094{col 26}{space 2} .0381769{col 37}{space 1}    2.43{col 46}{space 3}0.015{col 54}{space 4} 1.016781{col 67}{space 3} 1.166549
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2} 1.037842{col 26}{space 2} .0263076{col 37}{space 1}    1.47{col 46}{space 3}0.143{col 54}{space 4} .9875395{col 67}{space 3} 1.090706
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2} .9457521{col 26}{space 2} .0295516{col 37}{space 1}   -1.78{col 46}{space 3}0.074{col 54}{space 4}   .88957{col 67}{space 3} 1.005482
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2} .9596438{col 26}{space 2} .0249569{col 37}{space 1}   -1.58{col 46}{space 3}0.113{col 54}{space 4}  .911955{col 67}{space 3} 1.009826
+{txt}{space 9}GDP {c |}{col 14}{res}{space 2} 1.022165{col 26}{space 2} .1847779{col 37}{space 1}    0.12{col 46}{space 3}0.903{col 54}{space 4} .7172135{col 67}{space 3} 1.456779
+{txt}{space 4}sexratio {c |}{col 14}{res}{space 2} 5.165999{col 26}{space 2} 13.10681{col 37}{space 1}    0.65{col 46}{space 3}0.517{col 54}{space 4} .0357722{col 67}{space 3} 746.0406
+{txt}{space 5}pcunemp {c |}{col 14}{res}{space 2} .9685932{col 26}{space 2} .0444822{col 37}{space 1}   -0.69{col 46}{space 3}0.487{col 54}{space 4} .8852183{col 67}{space 3} 1.059821
+{txt}{space 5}pcurban {c |}{col 14}{res}{space 2} .9560539{col 26}{space 2} .0093706{col 37}{space 1}   -4.59{col 46}{space 3}0.000{col 54}{space 4} .9378631{col 67}{space 3} .9745975
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 1.50e-06{col 26}{space 2} 3.91e-06{col 37}{space 1}   -5.14{col 46}{space 3}0.000{col 54}{space 4} 8.98e-09{col 67}{space 3} .0002495
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .3867187{col 26}{space 2} .1977366{col 54}{space 4}-.0008378{col 67}{space 3} .7742752
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 1.472142{col 26}{space 2} .2910963{col 54}{space 4} .9991625{col 67}{space 3} 2.169019
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. nbreg homicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco GDP sexratio pcunemp pcurban, offset(lnpop) vce(robust)
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-268.06937}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-266.68171}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-266.67754}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-266.67754}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-170.89608}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-132.18525}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-127.56619}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-126.75972}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-126.75883}  
+Iteration 5:{space 3}log pseudolikelihood = {res:-126.75883}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-119.66408}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-112.44234}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-111.14363}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-111.11754}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-111.11753}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}8{txt}){col 67}= {res}     40.28
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log pseudolikelihood = {res}-111.11753{txt}{col 49}Pseudo R2{col 67}= {res}    0.1234
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}    homicide{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} .0853459{col 26}{space 2} .0350539{col 37}{space 1}    2.43{col 46}{space 3}0.015{col 54}{space 4} .0166415{col 67}{space 3} .1540502
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2} .0371431{col 26}{space 2} .0253484{col 37}{space 1}    1.47{col 46}{space 3}0.143{col 54}{space 4}-.0125388{col 67}{space 3}  .086825
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2}-.0557748{col 26}{space 2} .0312466{col 37}{space 1}   -1.78{col 46}{space 3}0.074{col 54}{space 4}-.1170171{col 67}{space 3} .0054674
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2}-.0411931{col 26}{space 2} .0260064{col 37}{space 1}   -1.58{col 46}{space 3}0.113{col 54}{space 4}-.0921647{col 67}{space 3} .0097785
+{txt}{space 9}GDP {c |}{col 14}{res}{space 2}  .021923{col 26}{space 2} .1807711{col 37}{space 1}    0.12{col 46}{space 3}0.903{col 54}{space 4}-.3323817{col 67}{space 3} .3762278
+{txt}{space 4}sexratio {c |}{col 14}{res}{space 2} 1.642099{col 26}{space 2} 2.537129{col 37}{space 1}    0.65{col 46}{space 3}0.517{col 54}{space 4}-3.330583{col 67}{space 3}  6.61478
+{txt}{space 5}pcunemp {c |}{col 14}{res}{space 2}-.0319106{col 26}{space 2} .0459246{col 37}{space 1}   -0.69{col 46}{space 3}0.487{col 54}{space 4}-.1219211{col 67}{space 3} .0580999
+{txt}{space 5}pcurban {c |}{col 14}{res}{space 2} -.044941{col 26}{space 2} .0098013{col 37}{space 1}   -4.59{col 46}{space 3}0.000{col 54}{space 4}-.0641512{col 67}{space 3}-.0257307
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-13.41212{col 26}{space 2}  2.61031{col 37}{space 1}   -5.14{col 46}{space 3}0.000{col 54}{space 4}-18.52823{col 67}{space 3}-8.296009
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .3867187{col 26}{space 2} .1977366{col 54}{space 4}-.0008378{col 67}{space 3} .7742752
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 1.472142{col 26}{space 2} .2910963{col 54}{space 4} .9991625{col 67}{space 3} 2.169019
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. outreg2 using H_S.doc, append ctitle(Model 2)
+{txt}{stata `"shellout using `"H_S.doc"'"':H_S.doc}
+{browse `"C:\Users\Billy\Dropbox\SHR Research\Data - 4th submission\Revised Data\Ready to merge"' :dir}{com} : {txt}{stata `"seeout using "H_S.txt""':seeout}
+
+{com}. 
+. nbreg suicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco, offset(lnpop) vce(robust) irr
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-394.47988}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-389.48735}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-389.48146}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-389.48146}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-219.58513}  
+Iteration 1:{space 3}log pseudolikelihood = {res: -156.2061}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-154.89733}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-154.89196}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 1:{space 3}log pseudolikelihood = {res: -151.7952}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-151.44622}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-151.44525}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-151.44525}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}4{txt}){col 67}= {res}      7.49
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.1120
+{txt}Log pseudolikelihood = {res}-151.44525{txt}{col 49}Pseudo R2{col 67}= {res}    0.0223
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}     suicide{col 14}{c |}        IRR{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} 1.061542{col 26}{space 2} .0476052{col 37}{space 1}    1.33{col 46}{space 3}0.183{col 54}{space 4} .9722201{col 67}{space 3} 1.159069
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2} .9769375{col 26}{space 2}  .019536{col 37}{space 1}   -1.17{col 46}{space 3}0.243{col 54}{space 4} .9393882{col 67}{space 3} 1.015988
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2} .9750099{col 26}{space 2} .0444096{col 37}{space 1}   -0.56{col 46}{space 3}0.578{col 54}{space 4} .8917408{col 67}{space 3} 1.066055
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2} .9873908{col 26}{space 2} .0174304{col 37}{space 1}   -0.72{col 46}{space 3}0.472{col 54}{space 4}  .953812{col 67}{space 3} 1.022152
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 9.82e-07{col 26}{space 2} 2.93e-07{col 37}{space 1}  -46.33{col 46}{space 3}0.000{col 54}{space 4} 5.47e-07{col 67}{space 3} 1.76e-06
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .5547329{col 26}{space 2} .1706744{col 54}{space 4} .2202171{col 67}{space 3} .8892487
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 1.741476{col 26}{space 2} .2972254{col 54}{space 4} 1.246347{col 67}{space 3} 2.433301
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. nbreg suicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco, offset(lnpop) vce(robust)
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-394.47988}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-389.48735}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-389.48146}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-389.48146}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-219.58513}  
+Iteration 1:{space 3}log pseudolikelihood = {res: -156.2061}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-154.89733}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-154.89196}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 1:{space 3}log pseudolikelihood = {res: -151.7952}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-151.44622}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-151.44525}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-151.44525}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}4{txt}){col 67}= {res}      7.49
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.1120
+{txt}Log pseudolikelihood = {res}-151.44525{txt}{col 49}Pseudo R2{col 67}= {res}    0.0223
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}     suicide{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} .0597222{col 26}{space 2} .0448454{col 37}{space 1}    1.33{col 46}{space 3}0.183{col 54}{space 4}-.0281731{col 67}{space 3} .1476175
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2}-.0233326{col 26}{space 2} .0199972{col 37}{space 1}   -1.17{col 46}{space 3}0.243{col 54}{space 4}-.0625264{col 67}{space 3} .0158612
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2}-.0253076{col 26}{space 2} .0455479{col 37}{space 1}   -0.56{col 46}{space 3}0.578{col 54}{space 4}-.1145798{col 67}{space 3} .0639646
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2}-.0126894{col 26}{space 2}  .017653{col 37}{space 1}   -0.72{col 46}{space 3}0.472{col 54}{space 4}-.0472887{col 67}{space 3} .0219099
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-13.83344{col 26}{space 2} .2985626{col 37}{space 1}  -46.33{col 46}{space 3}0.000{col 54}{space 4}-14.41861{col 67}{space 3}-13.24827
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .5547329{col 26}{space 2} .1706744{col 54}{space 4} .2202171{col 67}{space 3} .8892487
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 1.741476{col 26}{space 2} .2972254{col 54}{space 4} 1.246347{col 67}{space 3} 2.433301
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. outreg2 using H_S.doc, append ctitle(Model 3)
+{txt}{stata `"shellout using `"H_S.doc"'"':H_S.doc}
+{browse `"C:\Users\Billy\Dropbox\SHR Research\Data - 4th submission\Revised Data\Ready to merge"' :dir}{com} : {txt}{stata `"seeout using "H_S.txt""':seeout}
+
+{com}. 
+. nbreg suicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco GDP sexratio pcunemp pcurban, offset(lnpop) vce(robust) irr
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-370.39814}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-357.30146}  
+Iteration 2:{space 3}log pseudolikelihood = {res: -357.1894}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-357.18931}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-357.18931}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-219.58513}  
+Iteration 1:{space 3}log pseudolikelihood = {res: -156.2061}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-154.89733}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-154.89196}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 1:{space 3}log pseudolikelihood = {res:  -146.665}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-145.14838}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-145.12154}  
+Iteration 4:{space 3}log pseudolikelihood = {res: -145.1215}  
+Iteration 5:{space 3}log pseudolikelihood = {res: -145.1215}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}8{txt}){col 67}= {res}     33.73
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log pseudolikelihood = {res} -145.1215{txt}{col 49}Pseudo R2{col 67}= {res}    0.0631
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}     suicide{col 14}{c |}        IRR{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} 1.067695{col 26}{space 2} .0371902{col 37}{space 1}    1.88{col 46}{space 3}0.060{col 54}{space 4} .9972365{col 67}{space 3} 1.143133
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2}  .986253{col 26}{space 2} .0203252{col 37}{space 1}   -0.67{col 46}{space 3}0.502{col 54}{space 4} .9472102{col 67}{space 3} 1.026905
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2} 1.008271{col 26}{space 2} .0316179{col 37}{space 1}    0.26{col 46}{space 3}0.793{col 54}{space 4} .9481673{col 67}{space 3} 1.072185
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2} .9494061{col 26}{space 2} .0207577{col 37}{space 1}   -2.37{col 46}{space 3}0.018{col 54}{space 4} .9095811{col 67}{space 3} .9909749
+{txt}{space 9}GDP {c |}{col 14}{res}{space 2} 1.046044{col 26}{space 2} .1227959{col 37}{space 1}    0.38{col 46}{space 3}0.701{col 54}{space 4} .8310488{col 67}{space 3} 1.316658
+{txt}{space 4}sexratio {c |}{col 14}{res}{space 2} .2740782{col 26}{space 2} .4757216{col 37}{space 1}   -0.75{col 46}{space 3}0.456{col 54}{space 4} .0091292{col 67}{space 3} 8.228439
+{txt}{space 5}pcunemp {c |}{col 14}{res}{space 2} .9468164{col 26}{space 2} .0582406{col 37}{space 1}   -0.89{col 46}{space 3}0.374{col 54}{space 4} .8392795{col 67}{space 3} 1.068132
+{txt}{space 5}pcurban {c |}{col 14}{res}{space 2} .9595787{col 26}{space 2} .0091962{col 37}{space 1}   -4.31{col 46}{space 3}0.000{col 54}{space 4} .9417227{col 67}{space 3} .9777733
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .0000702{col 26}{space 2}  .000139{col 37}{space 1}   -4.83{col 46}{space 3}0.000{col 54}{space 4} 1.45e-06{col 67}{space 3} .0033974
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .2983057{col 26}{space 2} .1781369{col 54}{space 4}-.0508363{col 67}{space 3} .6474476
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 1.347574{col 26}{space 2} .2400526{col 54}{space 4} .9504343{col 67}{space 3} 1.910658
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. nbreg suicide DiffFam_Eco DiffEdu_Eco DiffRel_Eco DiffPol_Eco GDP sexratio pcunemp pcurban, offset(lnpop) vce(robust)
+{txt}note: you are responsible for interpretation of non-count dep. variable
+
+Fitting Poisson model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-370.39814}  
+Iteration 1:{space 3}log pseudolikelihood = {res:-357.30146}  
+Iteration 2:{space 3}log pseudolikelihood = {res: -357.1894}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-357.18931}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-357.18931}  
+{res}
+{txt}Fitting constant-only model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-219.58513}  
+Iteration 1:{space 3}log pseudolikelihood = {res: -156.2061}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-154.89733}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 4:{space 3}log pseudolikelihood = {res:-154.89196}  
+{res}
+{txt}Fitting full model:
+{res}
+{txt}Iteration 0:{space 3}log pseudolikelihood = {res:-154.89196}  
+Iteration 1:{space 3}log pseudolikelihood = {res:  -146.665}  
+Iteration 2:{space 3}log pseudolikelihood = {res:-145.14838}  
+Iteration 3:{space 3}log pseudolikelihood = {res:-145.12154}  
+Iteration 4:{space 3}log pseudolikelihood = {res: -145.1215}  
+Iteration 5:{space 3}log pseudolikelihood = {res: -145.1215}  
+{res}
+{txt}Negative binomial regression{col 49}Number of obs{col 67}= {res}        39
+{txt}{col 49}Wald chi2({res}8{txt}){col 67}= {res}     33.73
+{txt}{col 1}Dispersion{col 22}= {res}mean{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log pseudolikelihood = {res} -145.1215{txt}{col 49}Pseudo R2{col 67}= {res}    0.0631
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}    Robust
+{col 1}     suicide{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}DiffFam_Eco {c |}{col 14}{res}{space 2} .0655026{col 26}{space 2} .0348322{col 37}{space 1}    1.88{col 46}{space 3}0.060{col 54}{space 4}-.0027673{col 67}{space 3} .1337725
+{txt}{space 1}DiffEdu_Eco {c |}{col 14}{res}{space 2}-.0138424{col 26}{space 2} .0206085{col 37}{space 1}   -0.67{col 46}{space 3}0.502{col 54}{space 4}-.0542343{col 67}{space 3} .0265495
+{txt}{space 1}DiffRel_Eco {c |}{col 14}{res}{space 2} .0082372{col 26}{space 2} .0313585{col 37}{space 1}    0.26{col 46}{space 3}0.793{col 54}{space 4}-.0532243{col 67}{space 3} .0696988
+{txt}{space 1}DiffPol_Eco {c |}{col 14}{res}{space 2}-.0519186{col 26}{space 2} .0218639{col 37}{space 1}   -2.37{col 46}{space 3}0.018{col 54}{space 4}-.0947711{col 67}{space 3}-.0090661
+{txt}{space 9}GDP {c |}{col 14}{res}{space 2}  .045015{col 26}{space 2} .1173908{col 37}{space 1}    0.38{col 46}{space 3}0.701{col 54}{space 4}-.1850667{col 67}{space 3} .2750967
+{txt}{space 4}sexratio {c |}{col 14}{res}{space 2}-1.294342{col 26}{space 2} 1.735715{col 37}{space 1}   -0.75{col 46}{space 3}0.456{col 54}{space 4} -4.69628{col 67}{space 3} 2.107596
+{txt}{space 5}pcunemp {c |}{col 14}{res}{space 2}-.0546501{col 26}{space 2} .0615121{col 37}{space 1}   -0.89{col 46}{space 3}0.374{col 54}{space 4}-.1752116{col 67}{space 3} .0659113
+{txt}{space 5}pcurban {c |}{col 14}{res}{space 2}-.0412609{col 26}{space 2} .0095836{col 37}{space 1}   -4.31{col 46}{space 3}0.000{col 54}{space 4}-.0600444{col 67}{space 3}-.0224774
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-9.563778{col 26}{space 2} 1.979131{col 37}{space 1}   -4.83{col 46}{space 3}0.000{col 54}{space 4} -13.4428{col 67}{space 3}-5.684753
+{col 1}{txt}       lnpop{col 14}{c |}{res}{space 2}        1{col 26}{txt}  (offset)
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+    /lnalpha {c |}{col 14}{res}{space 2} .2983057{col 26}{space 2} .1781369{col 54}{space 4}-.0508363{col 67}{space 3} .6474476
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+       alpha {c |}{col 14}{res}{space 2} 1.347574{col 26}{space 2} .2400526{col 54}{space 4} .9504343{col 67}{space 3} 1.910658
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. outreg2 using H_S.doc, append ctitle(Model 4)
+{txt}{stata `"shellout using `"H_S.doc"'"':H_S.doc}
+{browse `"C:\Users\Billy\Dropbox\SHR Research\Data - 4th submission\Revised Data\Ready to merge"' :dir}{com} : {txt}{stata `"seeout using "H_S.txt""':seeout}
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Billy\Dropbox\SHR Research\Data - 4th submission\Revised Data\Ready to merge\negative.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}27 Sep 2019, 11:41:53
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

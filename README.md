@@ -1,5 +1,5 @@
 # International_Lethal_Violence_Publication
-PUBLICATION: Institutional Imbalance as a Force of Direction: The Implication of Institutional Anomie Theory in Stream Analogy of Lethal Violence
+Institutional Imbalance as a Force of Direction: The Implication of Institutional Anomie Theory in Stream Analogy of Lethal Violence
 [Link to Article](https://www.tandfonline.com/doi/full/10.1080/00380253.2020.1724059)
 
 ## ABSTRACT
